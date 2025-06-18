@@ -10,9 +10,12 @@ public class substrings {
         String email;
         String usuario;
         String domain;
+        String numero;
 
         System.out.println("Digite seu email: ");
         email = scanner.nextLine();
+        System.out.println("Digite seu número de telefone: ");
+        numero = scanner.nextLine();
 
         if (email.contains("@")) {
             System.out.printf("Email: %s\n", email);
@@ -23,6 +26,8 @@ public class substrings {
             System.out.println("Email inválido.");
             System.exit(0);
         }
+        System.out.printf("DDD: %s\n", numero.substring(0, 2));
+        System.out.printf("Número: %s\n", numero.substring(2));
 
 
 
