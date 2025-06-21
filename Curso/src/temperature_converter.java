@@ -13,7 +13,7 @@ public class temperature_converter {
         System.out.println("What's the temperature?");
         temp = scanner.nextDouble();
 
-        double newTemperature = (unit.equals("C")) ? (temp - 32) * 5/9 : (temp * 9/5) + 32;
+        double newTemperature = (unit.equalsIgnoreCase("C")) ? (temp - 32) * 5/9 : (temp * 9/5) + 32;
         System.out.printf("The temperature is: %,.1f°%s", newTemperature, unit);
 
     }
