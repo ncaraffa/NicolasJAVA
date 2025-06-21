@@ -32,6 +32,5 @@ public class Switch_Calc {
             case '^' -> System.out.printf("%.1f ^ %.1f = %.1f", num1, num2, Math.pow(num1, num2));
             default -> System.out.println("Choose a valid operation.");
         }
-
     }
 }
