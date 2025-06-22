@@ -21,6 +21,5 @@ public class logical_operators2 {
         else {
             System.out.println("New username: "+username);
         }
-
     }
 }
