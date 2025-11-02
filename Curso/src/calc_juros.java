@@ -4,7 +4,7 @@ public class calc_juros {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println();
         double principal;
         double rate;
         int timesCompounded;

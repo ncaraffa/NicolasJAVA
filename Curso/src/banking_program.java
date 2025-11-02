@@ -14,14 +14,15 @@ public class banking_program {
             System.out.println("**********");
             System.out.println("Welcome to the Banking Program");
             System.out.println("**********");
-            System.out.println("What shall we do?:\n 1. Show Balance\n 2. Deposit\n 3. Withdraw\n 4. Exit");
+            System.out.println("What shall we do?:\n 1. Show Balance\n 2. Deposit\n 3. Withdraw\n 4. DON'T CLICK ON ME!🐈‍⬛ 5. Exit");
             choice = scanner.nextInt();
             System.out.println("**********");
             switch (choice) {
                 case 1 -> showBalance(balance);
                 case 2 -> balance = balance += deposit();
                 case 3 -> balance = balance -= withdraw(balance);
-                case 4 -> isRunning = false;
+                case 4 -> System.out.println("TE AMO NATHALLY, MEU AMORZINHO LINDO❤️❤️❤️");
+                case 5 -> isRunning = false;
                 default -> System.out.println("Invalid choice!");
             }
         }
