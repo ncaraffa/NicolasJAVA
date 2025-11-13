@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class constructor {
     public static void main(String[] args) {
 
@@ -5,9 +7,13 @@ public class constructor {
         //               Você pode passar argumentos à um construtor
         //               E setar valores iniciais
 
+        Scanner scanner = new Scanner(System.in);
+
         Students students1 = new Students("Spongebob", 30, 3.2);
         Students students2 = new Students("Patrick", 34, 1.5);
         Students students3 = new Students("Sandy", 27, 4.0);
+
+
 
         System.out.println(students1.name);
         System.out.println(students1.age);
